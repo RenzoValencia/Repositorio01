@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px ;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside";
+}
+main{
+    color: white;
+    font-family: Arial;
+}
+header{
+    background-color: #242526;
+    grid-area: my-header;
+   position: sticky;
+}
+nav{
+    background-color: #18191A;
+    grid-area: my-nav;
+}
+section{
+    background-color: indigo;
+    grid-area: my-section;
+}
+aside{
+    background-color: #18191A;
+    grid-area: my-aside;
+}
+/* footer{
+    background-color: darkorchid;
+    grid-area: my-footer;
+}
+ */
+.fb{
+    width: 0px;
+    position: relative;
+    left: 10px;
+    bottom: -9px;
+}
+
+form{
+    background-color: aqua;
+    width: 0px;
+    position: relative;
+    top: -25px;
+    left: 50px;
+    border-radius: 20px;
+}
+.field{
+    /* border: 0; */
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+
+.inicio{
+    width: 0px;
+    position: relative;
+    top: -55px;
+    left: 410px;
+}
+.video{
+    width: 0px;
+    position: relative;
+    top: -90px;
+    left: 480px;
+}
+.market{
+    width: 0px;
+    position: relative;
+    top: -125px;
+    left: 550px;
+}
+.grupo{
+    width: 0px;
+    position: relative;
+    top: -160px;
+    left: 620px;
+}
+.juego{
+    width: 0px;
+    position: relative;
+    top: -195px;
+    left: 690px;
+}
+
+.iconos{
+    width: 0px;
+    position: relative;
+    left: 200px;
+} 
+
+#header{
+    background-color: #242526;
+    position: fixed;
+    
+}
+
+ul{
+    line-height: 35px;
+}
+nav, aside, section{
+    height: 1500px;
+}
+
+.publicidad{
+    width: 100px;
+    height: 300px;
+}
+@media(min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+    grid-template-rows: 150px 50px 1fr ;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section";
+    }
+}
+@media(min-width:1001px){
+    .grid{
+        grid-template-columns: 350px 1fr 360px;
+    grid-template-rows: 50px 1fr ;
+    grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside";
+    }
+}
