@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+}
+
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-columns: 1280px 200px;
+    grid-template-rows: 160px 50px 1fr 160px;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer";
+}
+
+main{
+    color: white;
+    font-family: Arial;
+}
+header{
+    background-color: #24303c;
+    grid-area: my-header;
+    
+}
+nav{
+    background-color: #24303c;
+    grid-area: my-nav;
+}
+section{
+    grid-area: my-section;
+}
+aside{
+    background-color: cadetblue;
+    grid-area: my-aside;
+}
+footer{
+    background-color: gray;
+    grid-area: my-footer;
+}
+
+.nombre{
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+img{
+    width: 120px;
+    float: left ;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+}
+
+.iniciosesion{
+    position: relative;
+    top: -130px;
+    left: -10px;
+}
+
+.iniciosesion a{
+    text-decoration: none;
+    color: blue;
+}
+
+.enlaces{
+    width: 50%;
+    padding: 16px;
+}
+
+.enlaces a{
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.enlaces a:hover{
+    border: solid 1px #1f53c5;
+    border-radius: 3px;
+}
+
+.iniciar_sesion{
+    width: 300px;
+    background-color: #24303c;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: white;
+}
+
+.iniciar_sesion h2{
+    text-align: center;
+}
+
+.controles{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.boton{
+    background-color: #1f53c5;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+}
+
+.cajainiciar a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+.iniciosesion{
+    float: right;
+}
+footer img{
+    width: 90px;
+    position: relative;
+    bottom: -30px;
+}
+
+.section{
+    color: black;
+}
+
+.info{
+    color: black;
+    margin-left: 20px;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.proyectos{
+    padding-left: 10px;
+}
+
+.datos{
+    padding-left: 150px;
+    color: black;
+}
+
+.datos1, .datos2, .datos3, .datos4{
+    float: left;
+    margin-left: 100px;
+}
+
+.datos a{
+    text-decoration: none;
+}

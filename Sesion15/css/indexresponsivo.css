@@ -15,6 +15,7 @@ main{
 header{
     background-color: blueviolet;
     grid-area: my-header;
+    
 }
 nav{
     background-color: cornflowerblue;
