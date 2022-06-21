@@ -1,0 +1,45 @@
+body{
+    background-color: darkgrey;
+}
+.contenedor {
+    width: 360px;
+    margin: auto;
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman';
+    border-radius: 3%;
+}
+h3{
+    text-align: center;
+}
+.boton{
+    background-color: midnightblue;
+    border-radius: 3%;
+    color: white;
+    padding-right: 10px;
+}
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+
+.nom{
+    background-color: darkgray;
+}
+
+.titu{
+    background-color: #0df39b;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
